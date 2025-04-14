@@ -1,0 +1,6 @@
+body {background-color: #E0CBD1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #43436F;}
+header>img {padding: 1rem 2rem 1rem 2rem; margin-right: 15rem; margin-top: -1rem; max-width: 15rem;}
+.hamburger {margin-left: 90%; width: 40px; padding: .5rem;}
+.hamburger hr {margin: .75rem;}
