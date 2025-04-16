@@ -1,6 +1,21 @@
 body {background-color: #E0CBD1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #43436F;}
-header>img {padding: 1rem 2rem 1rem 2rem; margin-right: 15rem; margin-top: -1rem; max-width: 15rem;}
-.hamburger {margin-left: 90%; width: 40px; padding: .5rem;}
-.hamburger hr {margin: .75rem;}
+header>img {margin-top: -4rem; max-width: 15rem;}
+header {position: relative;}
+.hamburger {margin-left: 90%; width: 40px; padding: .5rem; z-index: 5; position: absolute; top: 1rem; right: 0;}
+.hamburger hr {margin: .75rem; border-color: #43436F;}
+header nav {background-color: #BA3846; position: fixed; width: 100%; top: 7rem; right: -100%; transition-property: right; transition-duration: .5s; transition-timing-function: ease-in-out;}
+header nav a {display: block; color: #f6f5f3; text-align: center; text-decoration: none; padding: 3rem; border: 1px solid #f6f5f3;}
+header nav.show {right: 0;}
+#home>img {max-width: 80%; margin-top: -4rem; margin-left: .2rem;}
+#home {text-align: left; padding-left: 5rem;}
+#home p {margin-top: 3rem; margin-bottom: 3.5rem; margin-left: -2rem;}
+p {padding-left: 2rem; padding-right: 3rem;}
+#home a {background-color: #BA3846; border-radius: 4rem; color: #E0CBD1; padding: 1rem; text-decoration: none; text-align: center;}
+h1 {padding-left: 3.5rem;}
+#about>img {max-width: 80%; margin-top: 6rem; margin-left: 3.8rem;}
+h2 {padding-left: 3.5rem;}
+h3 {padding-left: 3.5rem;}
+#about p {margin-left: 1.5rem; padding-bottom: 4rem;}
+#about a {background-color: #BA3846; border-radius: 4rem; color: #E0CBD1; padding: 1rem; text-decoration: none; text-align: center; margin-left: 4rem;}
