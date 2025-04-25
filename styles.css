@@ -19,3 +19,4 @@ h2 {padding-left: 3.5rem;}
 h3 {padding-left: 3.5rem;}
 #about p {margin-left: 1.5rem; padding-bottom: 4rem;}
 #about a {background-color: #BA3846; border-radius: 4rem; color: #E0CBD1; padding: 1rem; text-decoration: none; text-align: center; margin-left: 4rem;}
+.waves>img {max-width: 50%; margin-top: 6rem; margin-left: 3.8rem;}
